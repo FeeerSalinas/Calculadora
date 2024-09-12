@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css"> <!-- Asegúrate de enlazar tu hoja de estilos -->
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div id="calculator" class="calculator">
+        <button id="clear" class="clear">C</button>
+        <div id="viewer" class="viewer">0</div>
+        <button class="num" data-num="7" id="numero" value="7">7</button>
+        <button class="num" data-num="8" id="numero" value="8">8</button>
+        <button class="num" data-num="9" id="numero" value="9">9</button>
+        <button data-ops="plus" class="ops">+</button>
+        <button class="num" data-num="4" id="numero" value="4">4</button>
+        <button class="num" data-num="5" id="numero" value="5">5</button>
+        <button class="num" data-num="6" id="numero" value="6">6</button>
+        <button data-ops="minus" class="ops">-</button>
+        <button class="num" data-num="1" id="numero" value="1">1</button>
+        <button class="num" data-num="2" id="numero" value="2">2</button>
+        <button class="num" data-num="3" id="numero" value="3">3</button>
+        <button data-ops="times" class="ops">*</button>
+        <button class="num" data-num="0" id="numero" value="0">0</button>
+        <button class="num" data-num=".">.</button>
+        <button id="equals" class="equals" data-result="">=</button>
+        <button data-ops="divided by" class="ops">/</button>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
